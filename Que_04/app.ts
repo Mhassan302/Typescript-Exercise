@@ -3,7 +3,7 @@
 
 // Albert Einstein once said, “A person who never made a mistake never tried anything new.”
 
-let qoute : string = `"He who is not a good servant will not be a good master."`;
-let author : string = "Socrates";
+let famousQoute : string = `"Well done is better than well said."`;
+let author : string = "Benjamin Franklin";
 
-console.log(`${author} once said, ${qoute}`);
+console.log(`${author} once said, ${famousQoute}`);

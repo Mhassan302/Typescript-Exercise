@@ -1,19 +1,19 @@
 "use strict";
 // Stages of Life: Write an if-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
-let age = 24;
-if (age < 2) {
+let personAge = 19;
+if (personAge < 2) {
     console.log(`The person is a baby.`);
 }
-else if (age >= 2 && age < 4) {
+else if (personAge >= 2 && personAge < 4) {
     console.log("The person is a toddler.");
 }
-else if (age >= 4 && age < 13) {
+else if (personAge >= 4 && personAge < 13) {
     console.log("The person is a kid.");
 }
-else if (age >= 13 && age < 20) {
-    console.log("The person is a teenager.");
+else if (personAge >= 13 && personAge < 20) {
+    console.log("The person is a Teenager.");
 }
-else if (age >= 20 && age < 65) {
+else if (personAge >= 20 && personAge < 65) {
     console.log("The person is an adult.");
 }
 else {

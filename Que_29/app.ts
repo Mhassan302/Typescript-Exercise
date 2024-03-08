@@ -1,6 +1,6 @@
 // Favorite Fruit: Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
 
-let favorite_fruit: string[] = [`Watermelon`, `Mango`, `Orange`];
+let favorite_fruit: string[] = [`pineapple`, `Mango`, `Orange`];
 
 if(favorite_fruit.includes(`Orange`)){
     console.log(`I like Oranges`);
@@ -8,10 +8,10 @@ if(favorite_fruit.includes(`Orange`)){
     console.log(`I dont like Oranges`);
 }
 
-if(favorite_fruit.includes(`Watermelon`)){
-    console.log(`Watermelon is one of my favourite fruits`);
+if(favorite_fruit.includes(`pineapple`)){
+    console.log(`pineapple is one of my favourite fruits`);
 }else {
-    console.log(`I dont like Watermelons`);
+    console.log(`I dont like pineapples`);
 }
 
 if(favorite_fruit.includes(`Apple`)){

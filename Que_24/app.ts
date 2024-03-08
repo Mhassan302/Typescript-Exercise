@@ -15,58 +15,57 @@ import { log } from "console";
 // • Test whether an item is not in a array
 
 
-let Name1: string = `Abdullah`;
-let Name2: string = `Ali`;
-let Name3: string = `hAsSaN`
+let person1: string = `Abdullah`;
+let person2: string = `Ali`;
+let person3: string = `hAsSaN`
 
 //Tests for equality and inequality with strings
-console.log(`Is name1 === name2 i predict false`);
-console.log(Name1 === Name2);
+console.log(`Is person1 === person2 i predict false`);
+console.log(person1 === person2);
 
-console.log(`Is name1 !== name2 i predict false`);
-console.log(Name1 !== Name2);
+console.log(`Is person1 !== person2 i predict false`);
+console.log(person1 !== person2);
 
 
 //Tests using the lower case function
-console.log(`Is name3 === hassan i predict false`);
-console.log(Name3 === `hassan`);
+console.log(`Is person3 === hassan i predict false`);
+console.log(person3 === `hassan`);
 
-console.log(`Is name3(using lower case func) === hassan i predict true`);
-console.log(Name3.toLowerCase() === `hassan`);
+console.log(`Is person3(using lower case func) === hassan i predict true`);
+console.log(person3.toLowerCase() === `hassan`);
 
 //Numerical tests involving equality and inequality, greater than and less than, greater than or equal to, and less than or equal to
-let num1: number = 12;
-let num2: number = 15;
-let num3: number = 12;
-let num4: number = 15;
+let number1: number = 12;
+let number2: number = 15;
+let number3: number = 12;
 
-console.log(`Is num1 !== num2 i predict true`)
-console.log(num1 !== num2);
+console.log(`Is number1 !== number2 i predict true`)
+console.log(number1 !== number2);
 
-console.log(`Is num1 == num2 i predict false`)
-console.log(num1 == num2);
+console.log(`Is number1 == number2 i predict false`)
+console.log(number1 == number2);
 
-console.log(`Is num1 < num2 i predict true`)
-console.log(num1 < num2);
+console.log(`Is number1 < number2 i predict true`)
+console.log(number1 < number2);
 
-console.log(`Is num1 > num2 i predict false`)
-console.log(num1 > num2);
+console.log(`Is number1 > number2 i predict false`)
+console.log(number1 > number2);
 
-console.log(`Is num1 >= num3 i predict true`)
-console.log(num1 >= num3);
+console.log(`Is number1 >= number3 i predict true`)
+console.log(number1 >= number3);
 
-console.log(`Is num2 <= num1 i predict false`)
-console.log(num2 <= num1);
+console.log(`Is number2 <= number1 i predict false`)
+console.log(number2 <= number1);
 
 // Tests using "and" and "or" operators
 let andNumber1: number = 65;
 let andNumber2: number = 79;
-let andString1: string = `car`;
+let andString1: string = `plane`;
 let andString2: string = `bike`;
 
 console.log(`using "and" operators`)
 console.log(andNumber1 >= 62 && andNumber2 <= 91);
-console.log(andString1 == `car` && andString2 == `bycycle`);
+console.log(andString1 == `plane` && andString2 == `bycycle`);
 
 console.log(`using "or" operators`)
 console.log(andNumber1 >= 91 || andNumber2 <= 91);
