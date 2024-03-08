@@ -1,0 +1,27 @@
+"use strict";
+//Que_22/node_modules Que_22/app.js Que_22/app.ts Que_22/package.json Que_22/package-lock.json Que_22/tsconfig.json
+let car = `Nissan GTR`;
+console.log(`is car == to Nissan GTR I predict true`);
+console.log(car == `Nissan GTR`);
+console.log(`is type of car == to string i predict true`);
+console.log(typeof car == `string`);
+let Name = `Ali`;
+console.log(`is Name == to Abdullah I predict False`);
+console.log(Name == `Abdullah`);
+console.log(`is type of Name == to number i predict false`);
+console.log(typeof Name == `number`);
+let Bool = true;
+console.log(`is Bool == to true I predict true`);
+console.log(Bool === true);
+console.log(`is type of Bool == to string i predict false`);
+console.log(typeof Bool == `string`);
+let age = 18;
+console.log(`is age <= 20 I predict true`);
+console.log(age <= 20);
+console.log(`is age >= 20 I predict false`);
+console.log(age >= 20);
+let mouse = `Logitech`;
+console.log(`is mouse == to Razer I predict False`);
+console.log(mouse == `Razer`);
+console.log(`is mouse == to Logitech I predict True`);
+console.log(mouse == `Logitech`);
